@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, ‘9.0’
+#忽略第三方警告，注意
+inhibit_all_warnings!
+# Uncomment this line if you're using Swift or would like to use dynamic frameworks
+use_frameworks!
+
+target 'GBLaidianExperience' do
+   # 网络请求
+   pod 'Alamofire-SwiftyJSON'
+   # 数模转换
+   pod 'HandyJSON'
+   # 刷新
+   pod 'MJRefresh'
+   # 布局
+   pod 'SnapKit'
+   # 图片加载库
+   pod 'Kingfisher'
+   # 搜索
+   pod 'YNSearch'
+   # pageMenu滚动菜单视图
+   pod 'LTScrollView'
+   pod 'SLGenericsNineView'
+   pod 'Highlighter'
+   pod 'MBProgressHUD'
+   # 键盘管理
+   pod 'IQKeyboardManagerSwift'
+   pod 'RxSwift'
+   pod 'RxCocoa'
+   # 动画库
+   pod 'IBAnimatable'
+   # 表视图、集合视图-便捷注册库
+   pod 'Reusable'
+   pod 'Qiniu'
+   
+end
